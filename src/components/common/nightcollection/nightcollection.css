@@ -1,0 +1,22 @@
+.collection-wrapper{
+    background-color: var(--inactive-color);
+}
+
+.collection{
+    padding:15px 0px 40px;
+
+}
+.collection-subtitle-row{
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom:10px;
+}
+.collection-subtitle-text{
+    color:var(--subtitle-text);
+    font-size:18px;
+}
+.collection-location{
+    color:var(--zomato-red);
+    display:flex;
+}
