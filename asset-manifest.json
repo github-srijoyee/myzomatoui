@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/myzomatoui/static/css/main.6bafec46.css",
+    "main.js": "/myzomatoui/static/js/main.7062e55b.js",
+    "static/js/787.24cfb8ae.chunk.js": "/myzomatoui/static/js/787.24cfb8ae.chunk.js",
+    "index.html": "/myzomatoui/index.html",
+    "main.6bafec46.css.map": "/myzomatoui/static/css/main.6bafec46.css.map",
+    "main.7062e55b.js.map": "/myzomatoui/static/js/main.7062e55b.js.map",
+    "787.24cfb8ae.chunk.js.map": "/myzomatoui/static/js/787.24cfb8ae.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.6bafec46.css",
+    "static/js/main.7062e55b.js"
+  ]
+}
