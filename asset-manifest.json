@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/myzomatoui/static/css/main.edf2c936.css",
+    "main.css": "/myzomatoui/static/css/main.161b5d1b.css",
     "main.js": "/myzomatoui/static/js/main.9733a1f2.js",
     "static/js/787.24cfb8ae.chunk.js": "/myzomatoui/static/js/787.24cfb8ae.chunk.js",
     "index.html": "/myzomatoui/index.html",
-    "main.edf2c936.css.map": "/myzomatoui/static/css/main.edf2c936.css.map",
+    "main.161b5d1b.css.map": "/myzomatoui/static/css/main.161b5d1b.css.map",
     "main.9733a1f2.js.map": "/myzomatoui/static/js/main.9733a1f2.js.map",
     "787.24cfb8ae.chunk.js.map": "/myzomatoui/static/js/787.24cfb8ae.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.edf2c936.css",
+    "static/css/main.161b5d1b.css",
     "static/js/main.9733a1f2.js"
   ]
 }
