@@ -24,10 +24,12 @@
     .collection-wrapper{
         background-color: var(--inactive-color);
         display:flex;
+        display: none;
     }
     
     .collection{
         padding:1.5vw 0vw 4vw;
+        display: none;
     }
     .collection-subtitle-row{
         display:flex;

@@ -13,12 +13,19 @@
     .header-username{
         display: none;
     }
+    .profile-wrapper{
+        display:flex;
+        justify-content: space-between;
+        width:15%;
+        align-items:center;
+    }
 
 }
 @media (min-width:600px) and (max-width:1500px){
     .header{
         display:flex;
     }
+   
 }
 .header-logo{
     height:27px;
