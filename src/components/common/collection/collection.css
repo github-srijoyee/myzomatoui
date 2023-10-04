@@ -3,20 +3,42 @@
 }
 
 .collection{
-    padding:15px 0px 40px;
-
+    padding:1.5vw 0vw 4vw;
 }
 .collection-subtitle-row{
     display:flex;
     justify-content: space-between;
     align-items: center;
-    margin-bottom:10px;
+    margin-bottom:1vw;
 }
 .collection-subtitle-text{
     color:var(--subtitle-text);
-    font-size:18px;
+    font-size:1.8vw;
 }
 .collection-location{
     color:var(--zomato-red);
     display:flex;
+}
+
+@media (max-width:600px){
+    .collection-wrapper{
+        background-color: var(--inactive-color);
+        display:flex;
+    }
+    
+    .collection{
+        padding:1.5vw 0vw 4vw;
+    }
+    .collection-subtitle-row{
+        display:flex;
+        margin-bottom:1vw;
+    }
+    .collection-subtitle-text{
+        color:var(--subtitle-text);
+        font-size:2vw;
+    }
+    .collection-location{
+        color:var(--zomato-red);
+        display:flex;
+    }
 }

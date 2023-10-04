@@ -3,11 +3,28 @@
     display:flex;
     align-items: center;
     margin: bottom 12px;
+    /*display: none;*/
+}
+@media (max-width:600px){
+    .header{
+    display: block;
+    margin-top:15px;
+    }
+    .header-username{
+        display: none;
+    }
+
+}
+@media (min-width:600px) and (max-width:1500px){
+    .header{
+        display:flex;
+    }
 }
 .header-logo{
     height:27px;
     max-width:140px;
     margin-right:24px;
+    display: block;
 }
 .header-right{
     display:flex;

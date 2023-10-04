@@ -1,33 +1,70 @@
 .tab-options{
-    box-shadow:var(--border-white) 0px -0.5px 0px inset;
+    box-shadow:var(--border-white) 0vw -0.08vw 0vw inset;
 
 }
 .options-wrapper{
     display:flex;
 }
 .tab-item{
-    margin-right: 24px;
-    padding:12px 12px 20px 12px;
+    margin-right: 2.2vw;
+    padding:1vw 1vw 1.6vw 1vw;
 }
 .tab-name{
-    font-size: 20px;
+    font-size: 1.5vw;
     font-weight: 600;
-    margin-left: 10px;
+    margin-left: 0.5vw;
     color:var(--inactive-text);
 }
 .tab-image-container{
-    height:60px;
-    width: 60px;
+    height:5vw;
+    width: 5vw;
     border-radius: 50%;
     background-color: var(--inactive-color);
 }
 .tab-image{
-    height: 30px;
-    width: 30px;
+    height: 2.5vw;
+    width: 2.5vw;
 }
 .active-tab{
-    border-bottom:2px solid var(--zomato-red);
+    border-bottom:0.15vw solid var(--zomato-red);
 }
 .active-tab .tab-name{
     color:var(--zomato-red);
+}
+
+
+@media (max-width:600px){
+    .tab-options{
+        box-shadow:var(--border-white) 0vw -0.1vw 0vw inset;
+    
+    }
+    .options-wrapper{
+        display:flex;
+    }
+    .tab-item{
+        margin-right: 2.2vw;
+        padding:1.5vw 1.5vw 2vw 1.5vw;
+    }
+    .tab-name{
+        font-size: 2vw;
+        font-weight: 600;
+        margin-left: 2vw;
+        color:var(--inactive-text);
+    }
+    .tab-image-container{
+        height:6vw;
+        width: 6vw;
+        border-radius: 50%;
+        background-color: var(--inactive-color);
+    }
+    .tab-image{
+        height: 3vw;
+        width: 3vw;
+    }
+    .active-tab{
+        border-bottom:0.5vw solid var(--zomato-red);
+    }
+    .active-tab .tab-name{
+        color:var(--zomato-red);
+    }
 }

@@ -61,7 +61,7 @@ const topbrandList=[
     },
     {
         id:10,
-        title:"Kwality Wall’s Frozen Dessert and Ice Cream Shop",
+        title:"Kwality Wall’s",
         time:"16 min",
         cover:"https://b.zmtcdn.com/data/brand_creatives/logos/0619ae0b489d44dd3562538f7768e48a_1658824977.png"
     }

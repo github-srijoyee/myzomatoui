@@ -9,3 +9,18 @@
     filter: unset;
     transition: opacity 0.25s ease 0s, transform 0.25s ease 0s;
 }
+
+@media (max-width:600px){
+    .offer-image{
+        width: 200%;
+        height: 200%;
+        object-fit: cover;
+        transform: none;
+        opacity: 1;
+        will-change: transform, opacity;
+        border-radius: inherit;
+        filter: unset;
+        transition: opacity 0.25s ease 0s, transform 0.25s ease 0s;
+        display: flex;
+    }
+}

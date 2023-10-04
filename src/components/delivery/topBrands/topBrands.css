@@ -1,13 +1,13 @@
 .top-brands{
-    padding-top: 30px;
+    padding-top: 3vw;
 }
 .top-brands-cover{
-    height:150px;
-    width:150px;
+    height:10vw;
+    width:10vw;
     border-radius:50%;
     background-color: var(--primary-bg);
     box-shadow:var(--collection-shadow);
-    border:0.5px solid var(--border-white);
+    border:0.1vw solid var(--border-white);
 }
 
 .top-brands-image{
@@ -17,9 +17,29 @@
     object-fit: cover;
 }
 .brand-title{
-    padding-top: 10px;
+    padding-top: 1vw;
 }
 .brand-time{
-    padding-top: 4px;
+    padding-top: 0.4vw;
     color:var(--filter-text)
+}
+
+@media (max-width:600px){
+    .brand-title{
+        padding-top: 3vw;
+        font-size: small;
+    }
+    .top-brands{
+        padding-top: 3vw;
+        font-size: small;
+    }
+    .top-brands-cover{
+        height:10vw;
+        width:10vw;
+        border-radius:50%;
+        background-color: var(--primary-bg);
+        box-shadow:var(--collection-shadow);
+        border:0.1vw solid var(--border-white);
+      
+    }
 }

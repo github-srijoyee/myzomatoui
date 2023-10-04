@@ -2,4 +2,12 @@
     background-color: var(--inactive-color);
     width: 100%;
     padding:40px 0px;
+   /* display: none;*/
 }
+
+/*@media (max-width:600px){
+    .delivery-collection{
+    display:flex;
+    overflow: auto;
+}
+}*/
